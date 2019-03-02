@@ -11,7 +11,7 @@ ipu_passthrough=1
 fi
 
 # use the modprobe to force loading snd-soc-skl/sst_bxt_bdf8532
-modprobe -q snd-soc-skl
+modprobe -q snd_soc_skl
 modprobe -q snd_soc_sst_bxt_sos_tdf8532
 
 audio_passthrough=0
